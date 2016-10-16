@@ -1,0 +1,14 @@
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #363636;
+  background: #eee;
+}
+
+
+ul { list-style-type: none }
+li:before {
+  content: ">";
+  padding-right: 8px;
+}

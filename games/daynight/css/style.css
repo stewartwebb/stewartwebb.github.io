@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-family: arial;
+	background: #eee;
+	margin: auto;
+}
+
+canvas{
+	margin:0;
+	padding: 0;
+}
