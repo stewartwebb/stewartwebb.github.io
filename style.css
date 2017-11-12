@@ -4,10 +4,11 @@ body {
   font-family: 'Roboto Mono', monospace;
   color: #363636;
   background: #eee;
+  text-align: center;
 }
 
 
-ul { list-style-type: none }
+ul { list-style-type: none; padding: 0; }
 li:before {
   content: ">";
   padding-right: 8px;
