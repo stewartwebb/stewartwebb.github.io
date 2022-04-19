@@ -1,9 +1,9 @@
 
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Inter', monospace;
   color: #363636;
-  background: #eee;
+  background: #f0f8fb;
   text-align: center;
 }
 
@@ -12,4 +12,35 @@ ul { list-style-type: none; padding: 0; }
 li:before {
   content: ">";
   padding-right: 8px;
+}
+
+strong {
+  font-weight: black;
+}
+h1 {
+  color: #4a4e69;
+}
+h2 {
+  color: #6e626d;
+  margin-top: 4rem;
+}
+p, ul, li {
+  color: #22223b;
+  line-height: 2.2rem;
+  font-size: 1.2rem;
+}
+.text-green {
+  color: #264653;
+}
+.text-turquoise {
+  color: #2a9d8f;
+}
+.text-yellow {
+ color: #e9c46a; 
+}
+.text-orange {
+  color: hsl(27, 40%, 59%);
+}
+.text-red {
+  color: #e76f51;
 }
